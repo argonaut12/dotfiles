@@ -19,5 +19,14 @@
         }
       ];
     };
+    nixosConfigurations.brolga = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      modules = [ ./brolga/configuration.nix
+        nixos-wsl.nixosModules.default {
+          system.stateVersion = "24.11";
+          wsl.enable = true;
+        }
+      ];
+    };
   };
 }

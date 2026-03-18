@@ -7,7 +7,8 @@
   ];
 
   wsl.enable = true;
-  wsl.defaultUser = "halleyre";
+  wsl.defaultUser = "argonaut12";
+  wsl.startMenuLaunchers = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   nixpkgs.config.allowUnfree = true;
