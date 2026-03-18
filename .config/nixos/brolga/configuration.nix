@@ -18,8 +18,8 @@
 
   users = {
     mutableUsers = false;
-    users.halleyre = {
-      hashedPassword = "$6$wannacrackme$BifH8Lp3mSmLFE6/5KdK29HwAYF.uCTWVfCQ7pc4/sQ/gj3DLIJRD68grBmXECyBJ2DVedOzVjkQBIe8FjhEw0";
+    users.argonaut12 = {
+      hashedPassword = "$6$OVnGspO5SDmHrOU9$/3v4LDkh4mEIHB2/HQknqgD.xdX00yqYl5zPE2lX/6JNYapL0QZU5n9mqphX2oVG4A/tF482TZLPiQjAtXJwG1";
       isNormalUser = true;
       extraGroups = [ "wheel" ];
     };

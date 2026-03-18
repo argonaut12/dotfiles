@@ -10,8 +10,8 @@
     nixosConfigurations.harrier = nixpkgs.lib.nixosSystem {
       modules = [ ./harrier/configuration.nix ];
     };
-    nixosConfigurations.brolga = nixpkgs.lib.nixosSystem {
-      system = "aarch64-linux";
+    nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
       modules = [ ./brolga/configuration.nix
         nixos-wsl.nixosModules.default {
           system.stateVersion = "24.11";
